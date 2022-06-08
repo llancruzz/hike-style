@@ -9,4 +9,52 @@
 body {
    font-family: Cormorant Garamond, sans-serif;
    font-weight: 400;
+   font-size: 25px;
 }
+
+/* logo and headings */
+
+h1, h2 {
+    font-family: Cormorant Garamond, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 40px;
+    line-height: 80px;
+    font-family: Amatic SC; cursive;
+}
+
+/* menu links */
+
+#navigation {
+    font-size: 110%;
+    letter-spacing: 6px;
+    line-height: 80px;
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+.on-act {
+    border-bottom: 1px solid black;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+
+
