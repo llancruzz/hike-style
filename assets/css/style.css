@@ -12,6 +12,7 @@ body {
    font-weight: 400;
    font-size: 25px;
    background-color: #364035;
+   color: #d9d9d9;
 
 }
 
@@ -21,7 +22,6 @@ h1, h2, p {
     font-family: Cormorant Garamond, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #d9d9d9;
 }
 
 #logo {
@@ -134,12 +134,13 @@ h1, h2, p {
      display: inline;
  }
 
- .copy-right {
-     margin: 0 auto;
-     width: 100%;
-     text-transform: capitalize;
-     font-family: Amatic SC, sans-serif;
-     bottom: 1%;
- }
+/* style mission page */
 
- 
+#container1-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #d9d9d9;
+    color: #364035;
+}
