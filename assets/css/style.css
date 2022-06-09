@@ -4,21 +4,24 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
    font-family: Cormorant Garamond, sans-serif;
    font-weight: 400;
    font-size: 25px;
+   background-color: #364035;
+
 }
 
 /* logo and headings */
 
-h1, h2 {
+h1, h2, p {
     font-family: Cormorant Garamond, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: black;
+    color: #d9d9d9;
 }
 
 #logo {
@@ -26,7 +29,8 @@ h1, h2 {
     font-size: 250%;
     margin-left: 40px;
     line-height: 80px;
-    font-family: Amatic SC; cursive;
+    font-family: Amatic SC, sans-serif;
+    color: #d9d9d9;
 }
 
 /* menu links */
@@ -35,26 +39,92 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 6px;
     line-height: 80px;
+    color: #d9d9d9;
 }
 
 #navigation li {
     float: right;
     list-style-type: none;
     margin-right: 35px;
+    color: #d9d9d9;
 }
 
 #navigation a {
     text-decoration: none;
+    color: #d9d9d9;
 }
 
 .on-act {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d9d9d9;
 }
 
+#container-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
+#text-colour {
+    font-size: 24px;
+    font-family: Cormorant Garamond, sans-serif;
+    width: 500px;
+    height: 500px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(126, 140, 123, .8);
+    bottom: 40px;
+    right: 100px;
+    position: absolute;
+    letter-spacing: 2px;
+    text-align: right;
+
+    
+}
+
+#hike-image {
+    height: 600px;
+    max-width: 100%;
+    background: url('../images/hikeimage.JPG') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hike-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hike image */
+@keyframes hike-zoom {
+    from { 
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* style for footer here */
+ footer {
+     height: 50px;
+ }
+
+ .social-media {
+     text-align: center;
+ }
+
+ .social-media i {
+     font-size: 180%;
+     margin: 2%;
+     padding: 4%;
+     color: #d9d9d9;
+ }
+
+ .social-media > li {
+     display: inline;
+ }
 
 
