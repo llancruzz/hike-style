@@ -33,6 +33,10 @@ h1, h2, p {
     color: #d9d9d9;
 }
 
+#fav-hike {
+    padding-left: 40px;
+}
+
 /* menu links */
 
 #navigation {
@@ -109,7 +113,10 @@ h1, h2, p {
 
 /* style for footer here */
  footer {
-     height: 50px;
+     text-align: center;
+     height: 120px;
+     width: 100%;
+     overflow: hidden;
  }
 
  .social-media {
@@ -117,9 +124,9 @@ h1, h2, p {
  }
 
  .social-media i {
-     font-size: 180%;
-     margin: 2%;
-     padding: 4%;
+     font-size: 150%;
+     margin: 0.5%;
+     padding: 3%;
      color: #d9d9d9;
  }
 
@@ -127,4 +134,12 @@ h1, h2, p {
      display: inline;
  }
 
+ .copy-right {
+     margin: 0 auto;
+     width: 100%;
+     text-transform: capitalize;
+     font-family: Amatic SC, sans-serif;
+     bottom: 1%;
+ }
 
+ 
