@@ -92,7 +92,7 @@ h1, h2, p {
 
 #hike-image {
     height: 600px;
-    max-width: 100%;
+    width: 100%;
     background: url('../images/hikeimage.JPG') no-repeat center center;
 
     /* animates zoom effect on loading page */
@@ -172,4 +172,27 @@ h1, h2, p {
 aside {
     margin: 1%;
     padding: 2%;
+}
+
+/* style photos page */
+
+#container2-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #d9d9d9;
+    color: #364035;
+}
+
+.photos {
+    clear: both;
+    line-height: 0%;
+    column-count: 5;
+    column-gap: 0;
+
+}
+
+.photos img {
+    width: 100%;
 }
