@@ -66,6 +66,10 @@ h1, h2, p {
     border-bottom: 1px solid #d9d9d9;
 }
 
+#navigation a:visited {
+    color: #bfaf8f;
+}
+
 #container-outer {
     height: 600px;
     width: 100%;
@@ -177,7 +181,7 @@ aside {
 /* style photos page */
 
 #container2-outer {
-    height: 750px;
+    height: 760px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -186,13 +190,25 @@ aside {
 }
 
 .photos {
+    height: 760px;
+    width: 100%;
     clear: both;
     line-height: 0%;
     column-count: 5;
     column-gap: 0;
-
 }
 
 .photos img {
     width: 100%;
+}
+
+/*style join us page */
+
+#container3-outer {
+    height: 760px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #d9d9d9;
+    color: #364035;
 }
