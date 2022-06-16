@@ -249,6 +249,10 @@ header {
     font-size: 18px;
 }
 
+#container4-outer {
+    text-align: center;
+}
+
 }
 
 
@@ -474,6 +478,19 @@ header {
     background-color: #7e8c7b;
 }
 
+/* style for letter-submit hee*/
+
+#container4-outer {
+    height: 760px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #d9d9d9;
+    color: #364035;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14%;
+}
 
 @media only screen and (max-width: 540px) {
     .shape {
