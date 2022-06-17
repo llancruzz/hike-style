@@ -123,7 +123,7 @@ h1, h2, p {
 #hike-image {
     height: 100%;
     width: 100%;
-    background: url('../images/hikeimage.jpg') no-repeat center center;
+    background: url('../images/hikeimage.webp') no-repeat center center;
     background-size: 100%;
 
     /* animates zoom effect on loading page */
