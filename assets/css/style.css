@@ -123,7 +123,7 @@ h1, h2, p {
 #hike-image {
     height: 100%;
     width: 100%;
-    background: url('../images/hikeimage.JPG') no-repeat center center;
+    background: url('../images/hikeimage.jpg') no-repeat center center;
     background-size: 100%;
 
     /* animates zoom effect on loading page */
@@ -552,7 +552,7 @@ h1, h2, p {
     }
     }
     
-    /*media screen 1100px extra */
+    /* media screen 1100px extra */
     @media only screen and (min-width: 1100px) {
         header {
             display: block;
@@ -568,7 +568,7 @@ h1, h2, p {
         }
     }
     
-    /*media screen for large laptop 1440px */
+    /* media screen for large laptop 1440px */
     @media only screen and (min-width: 1440px) {
       #container1-outer {
         display: flex;
@@ -578,5 +578,12 @@ h1, h2, p {
       .circle-outer {
           display: block;
       }
+    }
+
+    /* media screen for large dekstop 1570px */
+    @media only screen and (min-width: 1570px) {
+        #leaves-image {
+            background-size: 100vh;
+        }
     }
 
