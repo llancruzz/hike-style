@@ -1,108 +1,55 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Hike Style's
+![Screenshot logo](./assets/media/logo.png)
 
-Welcome Alan Cruz da Silva,
+## Introduction
+The Hike Style’s is a site about a social community among people who want to practice outdoor sports between nature and who want to share incredible and unique moments. The site is aimed at people who are adventurous and who want to know nature in interesting places , which where the interest in making new friends and making social encounters is the most important. The Hike Style’s will be useful as a reference for those looking for information on Hike and biking in nature.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Screenshot](./assets/media/responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[View the live Website on Github Pages](https://llancruzz.github.io/hike-style/) Please note: To open any links in this document in a new browser tab, please press CTRL + Click.
 
-## Gitpod Reminders
+## UX 
+### The Hike Style's:
+The Hike Style’s is a site created for physical activities among nature . That is, where I used much of the design in green color. The green color represents nature, but also represents growth and vitality. The green color is associated with health and tranquility. It is a balanced and rejuvenating color.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Color Palette:
+![color used in this project](./assets/media/color.png)
 
-`python3 -m http.server`
+## Wireframe mockups
+Initially I utilised Balsamiq to produce low fidelity wireframes to organise the site structure, potential content placement locations.
 
-A blue button should appear to click: _Make Public_,
+* [Home page Wireframe](#)
+* [Mission page Wireframe](#)
+* [Photos page Wireframe](#)
+* [Join Us page Wireframe](#)
+* [Thank You page Wireframe](#)
 
-Another blue button should appear to click: _Open Browser_.
+## Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Common Features 
+* Navigation Bar
 
-A blue button should appear to click: _Make Public_,
+  * The navigation bar features a common design across all four pages in keeping with convention with a logo on the left hand size and the navigation links on the right.
+  * The navigation bar includes links on the logo, Home, Mission, Photos and Join Us. The various title links head to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users will likely be familiar with.
+  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
+  * A color is activated once you click on each navigation link. This means that the page you clicked was visited.
 
-Another blue button should appear to click: _Open Browser_.
+![Navigation bar screenshoot](./assets/media/navigation-bar.png) 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Hero Image
 
-To log into the Heroku toolbelt CLI:
+  * Only Home page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Screenshoot Hero Immage](./assets/media/hero-image.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Footer
+  
+  * The lower section of the common footer includes logo links to each of the social media platforms. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
+  * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
+  * The lower footer section also includes the copyright notice.
 
-------
+![Screenshoot Footer](./assets/media/footer-lower.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

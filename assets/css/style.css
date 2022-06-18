@@ -112,7 +112,7 @@ h1, h2, p {
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(126, 140, 123, .8);
-    bottom: 5%;
+    bottom: 10%;
     right: 100px;
     position: absolute;
     letter-spacing: 2px;
@@ -126,7 +126,7 @@ h1, h2, p {
     background: url('../images/hikeimage.webp') no-repeat center center;
     background-size: 100%;
 
-    /* animates zoom effect on loading page */
+/* animates zoom effect on loading page */
     animation-name: hike-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -516,6 +516,7 @@ h1, h2, p {
             right: 2px;
         }
     }
+    
     
     /* media screen for mobile phone large 500px */
     @media only screen and (min-width: 500px) {
