@@ -121,7 +121,6 @@ h1, h2, p {
 
 
 #hike-image {
-    height: 100%;
     width: 100%;
     background: url('../images/hikeimage.webp') no-repeat center center;
     background-size: 100%;

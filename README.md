@@ -95,4 +95,25 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
 
 ![Screenshot WSC Validator](./assets/media/validator-html.png)
 
+* CSS
+
+  * No errors were returned when passing through the official (Jigsaw) Validator.
+
+    * [Link to results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
+
+![Screen Shot Results CSS validator](./assets/media/css-validator.png)
+
+* Lighthouse
+
+  * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report. The two reports, both for mobile and desktop, reported that the image sizes were too heavy to load. I redacted the images and turned them into Webp archive by the site [EZGIF.COM](https://ezgif.com/jpg-to-webp) and then I improved the performance score.
+
+    * Mobile 
+    ![Screenshot Mobile Score](./assets/media/lighthouse-mobile.png)
+
+    * Desktop
+    ![Screenshot Desktop Score](./assets/media/lighthouse-desktop.png)
+  
+  
+
+
 
