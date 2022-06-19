@@ -18,11 +18,11 @@ The Hike Style’s is a site created for physical activities among nature . That
 ## Wireframe mockups
 Initially I utilised Balsamiq to produce low fidelity wireframes to organise the site structure, potential content placement locations.
 
-* [Home page Wireframe](#)
-* [Mission page Wireframe](#)
-* [Photos page Wireframe](#)
-* [Join Us page Wireframe](#)
-* [Thank You page Wireframe](#)
+* [Home page Wireframe](https://github.com/llancruzz/hike-style/blob/main/assets/media/home-page.png)
+* [Mission page Wireframe](https://github.com/llancruzz/hike-style/blob/main/assets/media/mission-page.png)
+* [Photos page Wireframe](https://github.com/llancruzz/hike-style/blob/main/assets/media/photo-page.png)
+* [Join Us page Wireframe](https://github.com/llancruzz/hike-style/blob/main/assets/media/join-us-page.png)
+* [Thank You page Wireframe](https://github.com/llancruzz/hike-style/blob/main/assets/media/thank-you-page.png)
 
 ## Features
 
@@ -34,13 +34,13 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
   * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
   * A color is activated once you click on each navigation link. This means that the page you clicked was visited.
 
-![Navigation bar screenshoot](./assets/media/navigation-bar.png) 
+![Navigation bar screenshot](./assets/media/navigation-bar.png) 
 
 * Hero Image
 
   * Only Home page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
 
-![Screenshoot Hero Immage](./assets/media/hero-image.png)
+![Screenshot Hero Immage](./assets/media/hero-image.png)
 
 * Footer
   
@@ -48,8 +48,51 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
   * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
   * The lower footer section also includes the copyright notice.
 
-![Screenshoot Footer](./assets/media/footer-lower.png)
+![Screenshot Footer](./assets/media/footer-lower.png)
 
+### Mission Page Features
+* Our Mission
 
+  * The main section of the Mission page includes a text about The Hike Style’s mission. It provides users with the main goal. The mission page contains two images in circle format.
+
+![Mission page screenshot](.//assets/media/mission.png)
+
+### Photos Page Features
+* Our Gallery
+
+  * The photos page allows users to access high-quality photos of each adventurer’s encounters and activates. This allows users to easily identify the types of journey each person has experienced.
+
+![Photos page screenshot](./assets/media/photos.png)
+
+### Join Us Page Features
+* Join Us
+
+  * The contact form provides users with the ability to contact The Hike Style's directly with any queries or comments they may have. The user is asked for their full name, email address and a message.
+
+    ![Join Uss page screenshot](./assets/media/join-us.png)
+
+### Thank You Page Features
+* Message
+
+  * When submitting the form, the user will be redirected to a new page, which will thank them for subscribing. The page contains a motivational message. No user information will be stored.
+
+    ![Thank You page screenshot](./assets/media/thank-you.png)
+
+## Testing
+
+The site has been tested by friends in different browsers ( Chorme, Firefox, Safari) and in different smarthphones, laptop and desktop. I personally tested the site extensively with dev tools to ensure the site works responsively not only on mobile devices but also on medium to larger screens. I have personally tested the site extensively with development tools to ensure that the site works responsively not only on mobile devices, but also on medium to large screens. I realized that in some sizes ,the responsiveness was not 100% complete. I fix this problem along with some internet searches and Slack Comunnity and realized that I was using enough property position. So I studied deeply how to use Flex-Box and manage to solve the problem. 
+
+### Validator Testing
+* HTML
+
+  * No errors were returned when passing through the official W3C Validator.
+    
+    * [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Findex.html)
+    * [Mission Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Fmission.html)
+    * [Photos Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Fphotos.html)
+    * [Join Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Fjoinus.html)
+    * [Letter Thank you Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fllancruzz.github.io%2Fhike-style%2Fletter-submit.html%3Fname%3DAlan%26email%3Dalan.silvacruz%2540hotmail.com%26message%3DHi%26submit%3DSubmit)
+
+![Screenshot WSC Validator](./assets/media/validator-html.png)
 
 
