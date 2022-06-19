@@ -11,19 +11,13 @@ The Hike Style’s is a site about a social community among people who want to p
 ## Table Of Contents:
 * [UX](#ux)
 
-  * [The Hike Style's](#the-hike-style's) 
+  * [The Hike Style](#the-hike-style) 
   * [Colour Palette](#colour-palette)
   * [Wireframe mockups](#wireframe-mockups)
     
-    * [Home page Wireframe](#home-page-wireframe)
-    * [Mission page Wireframe](#mission-page-wireframe)
-    * [Photos page Wireframe](#photos-page-wireframe)
-    * [Join Us page Wireframe](#join-us-page-wireframe)
-    * [Thank You page Wireframe](#thank-you-page-wireframe)
-
-* [Features](features)
+* [Features](#features)
  
-  * [Commom Features](#commom-features)
+  * [Common Features](#common-features)
     
     * [Navigation Bar](#navigation-bar)
     * [Hero Image](#hero-image)
@@ -32,32 +26,31 @@ The Hike Style’s is a site about a social community among people who want to p
     * [Photos Page Features](#photos-page-features)
     * [Join Us Page Features](#join-us-page-features)
     * [Thank You Page Features](#thank-you-page-features)
+    * [Future Features](#future-features)
 
 * [Technologies](#technologies)
  
-  * [Technologies Used](#technologies-used)
-
 * [Testing](#testing)
 
-  * [Validator Test](#validator-test)
+  * [Validator Testing](#validator-testing)
     
     * [HTML](#html)
     * [CSS](#css)
-    * [Lighthouse](#lightouse)
-    * [WAVE - Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+    * [Lighthouse](#lighthouse)
+    * [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
 
 * [Deployment](#deployment)
-* [Credits & Acknowledgements](#credits-&-acknowledgements)
+* [Credits and Acknowledgements](#credits-and-acknowledgements)
  
   * [Content](#content)
   * [Media](#media)
   
 
 ## UX 
-### The Hike Style's:
+### The Hike Style
 The Hike Style’s is a site created for physical activities among nature . That is, where I used much of the design in green color. The green color represents nature, but also represents growth and vitality. The green color is associated with health and tranquility. It is a balanced and rejuvenating color.
 
-### Colour Palette:
+### Colour Palette
 ![color used in this project](./assets/media/color.png)
 
 ## Wireframe mockups
@@ -72,7 +65,7 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 ## Features
 
 ### Common Features 
-* Navigation Bar
+#### Navigation Bar
 
   * The navigation bar features a common design across all four pages in keeping with convention with a logo on the left hand size and the navigation links on the right.
   * The navigation bar includes links on the logo, Home, Mission, Photos and Join Us. The various title links head to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users will likely be familiar with.
@@ -81,13 +74,13 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 
 ![Navigation bar screenshot](./assets/media/navigation-bar.png) 
 
-* Hero Image
+#### Hero Image
 
   * Only Home page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
 
 ![Screenshot Hero Immage](./assets/media/hero-image.png)
 
-* Footer
+#### Footer
   
   * The lower section of the common footer includes logo links to each of the social media platforms. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
   * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
@@ -123,6 +116,10 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 
     ![Thank You page screenshot](./assets/media/thank-you.png)
 
+### Future Features
+
+  * Gallery Photos
+
 ## Technologies
 * Technologies Used
 
@@ -130,13 +127,12 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
   * ![css3](./assets/media/css3.png)
 
 
-
 ## Testing
 
 The site has been tested by friends in different browsers ( Chorme, Firefox, Safari) and in different smarthphones, laptop and desktop. I have personally tested the site extensively with development tools to ensure that the site works responsively not only on mobile devices, but also on medium to large screens. I realized that in some sizes for browser Safari, the responsiveness was not 100% complete. I fixed this problem along with some internet searches and Slack Comunnity and realized that I was using enough property position. So I studied deeply how to use Flex-Box and manage to solve the problem. 
 
 ### Validator Testing
-* HTML
+#### HTML
 
   * No errors were returned when passing through the official W3C Validator.
     
@@ -148,7 +144,7 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
 
 ![Screenshot WSC Validator](./assets/media/validator-html.png)
 
-* CSS
+#### CSS
 
   * No errors were returned when passing through the official (Jigsaw) Validator.
 
@@ -156,7 +152,7 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
 
 ![Screen Shot Results CSS validator](./assets/media/css-validator.png)
 
-* Lighthouse
+#### Lighthouse
 
   * I generated a lighthouse report for the deployed site through the Google Chrome Dev Tools. I generated both a desktop and mobile report. The two reports, both for mobile and desktop, reported that the image sizes were too heavy to load. I redacted the images and turned them into Webp archive by the site [EZGIF.COM](https://ezgif.com/jpg-to-webp) and then I improved the performance score.
 
@@ -166,7 +162,7 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
     * Desktop
     ![Screenshot Desktop Score](./assets/media/lighthouse-desktop.png)
   
-* WAVE - Web Accessibility Evaluation Tool
+### WAVE Web Accessibility Evaluation Tool
 
   * I have tested all the pages HOME - MISSION - PHOTOS - JOIN US - THANK YOU for the following analyses: 
 
@@ -184,7 +180,7 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
 
  The live link can be found here - [The Hike Style's Live Site](https://llancruzz.github.io/hike-style/)
 
- ## Credits & Acknowledgements
+ ## Credits and Acknowledgements
  ### Content
   * The text for all pages was created by myself.
   * The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was utilised to implement flexbox and as general reference material for other areas.
