@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond:wght@300&display=swap');
 
-
+/* General rule sizes here */
 * {
     margin: 0;
     padding: 0;
@@ -93,6 +93,7 @@ h1, h2, p {
     color: #bfaf8f;
 }
 
+/* Main Content here */
 
 #container-outer {
     display: flex;
@@ -295,6 +296,7 @@ h1, h2, p {
 
 }
 
+/* Form style here */
 
 .form-design {
     display: flex;
@@ -381,7 +383,7 @@ h1, h2, p {
 }
 
 
-/* style for letter-submit hee*/
+/* style for letter-submit here*/
 
 #container4-outer {
     height: 760px;
