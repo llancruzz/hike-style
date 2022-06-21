@@ -40,7 +40,7 @@ The Hike Style’s is a site about a social community among people who want to p
     * [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
 
 * [Deployment](#deployment)
-* [Credits and Acknowledgements](#credits-and-acknowledgements)
+* [Credits](#credits)
  
   * [Content](#content)
   * [Media](#media)
@@ -180,7 +180,7 @@ The site has been tested by friends in different browsers ( Chorme, Firefox, Saf
 
  The live link can be found here - [The Hike Style's Live Site](https://llancruzz.github.io/hike-style/)
 
- ## Credits and Acknowledgements
+ ## Credits
  ### Content
   * The text for all pages was created by myself.
   * The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was utilised to implement flexbox and as general reference material for other areas.
