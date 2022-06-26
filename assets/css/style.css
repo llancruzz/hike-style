@@ -26,11 +26,6 @@ body {
 }
 
 
-footer {
-    margin-top: auto;
-}
-
-
 /* logo and headings */
 
 h1, h2, p {
@@ -79,11 +74,6 @@ h1, h2, p {
 }
 
 
-.on-act {
-    border-bottom: 1px solid #d9d9d9;
-}
-
-
 #navigation a:hover {
     border-bottom: 1px solid #d9d9d9;
 }
@@ -93,8 +83,14 @@ h1, h2, p {
     color: #bfaf8f;
 }
 
+.on-act {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+
 /* Main Content here */
 
+/* Container Home Page */
 #container-outer {
     display: flex;
     flex-grow: 2;
@@ -149,6 +145,7 @@ h1, h2, p {
      text-align: center;
      width: 100%;
      overflow: hidden;
+     margin-top: auto;
  }
 
 
@@ -176,6 +173,7 @@ h1, h2, p {
 
 /* style mission page */
 
+/* Container mission page */
 #container1-outer {
     display: flex;
     width: 100%;
@@ -234,6 +232,7 @@ h1, h2, p {
 
 /* style photos page */
 
+/* Cointainer Photos page */
 .gallery-container {
     display: inline-block;
     background-color: #d9d9d9;
@@ -279,6 +278,7 @@ h1, h2, p {
 
 /*style join us page */
 
+/* container join us page */
 #container3-outer {
     height: 850px;
     width: 100%;
@@ -385,6 +385,7 @@ h1, h2, p {
 
 /* style for letter-submit here*/
 
+/* Container Thank you Page */
 #container4-outer {
     height: 760px;
     width: 100%;
@@ -435,6 +436,7 @@ h1, h2, p {
     }
     
     
+    /* Container Mission page */
     #container1-outer {
         flex-direction: column;
     }
@@ -471,6 +473,7 @@ h1, h2, p {
     }
     
     
+    /* Container Thank you page */
     #container4-outer {
         text-align: center;
     }

@@ -27,11 +27,12 @@ The Hike Style’s is a site about a social community among people who want to p
     * [Join Us Page Features](#join-us-page-features)
     * [Thank You Page Features](#thank-you-page-features)
     * [Future Features](#future-features)
+    * [Feature Testing](#feature-testing)
 
 * [Technologies](#technologies)
  
 * [Testing](#testing)
-
+  * [Fixed Issues](#fixed-issues)
   * [Validator Testing](#validator-testing)
     
     * [HTML](#html)
@@ -92,6 +93,7 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 * Our Mission
 
   * The main section of the Mission page includes a text about The Hike Style’s mission. It provides users with the main goal. The mission page contains two images in circle format.
+  * The way the two images are aligned is really part of the project and not any misalignment.
 
 ![Mission page screenshot](.//assets/media/mission.png)
 
@@ -119,17 +121,34 @@ Initially I utilised Balsamiq to produce low fidelity wireframes to organise the
 ### Future Features
 
   * Gallery Photos
+  * The website will be deployed with new tabs including virtual store with clothes and accessories according to the purpose and purpose of the community.
+  * The website will create an interactive tab where users can register and communicate through the site itself.
+  * The website will create a tab where people who are interested in nature and adventure can donate money, that is, a support foundation.
+
+### Feature Testing
+ * The process included are as follows:
+    * Home : The user will view a background image with a wonderful landscape of nature and a brief text about our community. To move on to the next page, just click on the names Navagação menu.
+    * Mission : The user will read a brief text about our mission and view two images between circle about some records of the members of the site.
+    * Photos : The user will see some photos recorded by members about their adventures. Note that by hovering over the photo, it expands by highlighting the viewed photo itself.
+    * Join Us : The user who is interested in participating in our community must fill in their data according to what is requested. Name / Email and Message. All requirements must be completed, otherwise the user will not be able to contact the community for more information. Once the data has been sent, an automated message will appear pleasing the contact. 
+    * Note that all menus change color as users click to view content. This shows users that the page itself has been viewed. Reminding users which pages they have already viewed.
+
 
 ## Technologies
-* Technologies Used
+* Technologies / Tools Used
 
   * ![html5](./assets/media/html5.png)
   * ![css3](./assets/media/css3.png)
+  * ![balsamiq](./assets/media/balsamiq.png)
+  * ![adobecolor](./assets/media/adobecolor.png)
 
 
 ## Testing
 
-The site has been tested by friends in different browsers ( Chorme, Firefox, Safari) and in different smarthphones, laptop and desktop. I have personally tested the site extensively with development tools to ensure that the site works responsively not only on mobile devices, but also on medium to large screens. I realized that in some sizes for browser Safari, the responsiveness was not 100% complete. I fixed this problem along with some internet searches and Slack Comunnity and realized that I was using enough property position. So I studied deeply how to use Flex-Box and manage to solve the problem. 
+The website has been tested by friends in different browsers ( Chorme, Firefox, Safari) and in different smarthphones, laptop and desktop. I have personally tested the site extensively with development tools to ensure that the site works responsively not only on mobile devices, but also on medium to large screens. This website is supports by resolutions Desktop(1600x992px and over), Laptop(1280x802px), Tablet(768x1024px), Mobile(320x480px).
+
+### Fixed Issues
+  * I realized that in some sizes for browser Safari, the responsiveness was not 100% complete. I fixed this problem along with some internet searches and Slack Comunnity and realized that I was using enough property position-absolute and position-relative. So I studied deeply how to use Flex-Box and manage to solve the problem. 
 
 ### Validator Testing
 #### HTML
